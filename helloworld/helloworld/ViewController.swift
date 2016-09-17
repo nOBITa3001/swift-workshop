@@ -11,17 +11,17 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var myLabel: UILabel!
-    @IBOutlet weak var inputText: UITextField!
+    @IBOutlet weak var slider: UISlider!
     
-    @IBAction func myButtonTapped(_ sender: AnyObject) {
-        myLabel.text = inputText.text
+    @IBAction func mySlider(_ sender: UISlider) {
+        myLabel.text = "\(sender.value)"
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        myLabel.text = "hi !"
+        myLabel.text = "pls slide !"
     }
 
     override func didReceiveMemoryWarning() {
