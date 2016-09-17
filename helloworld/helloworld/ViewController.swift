@@ -23,8 +23,21 @@ class ViewController: UIViewController {
     @IBOutlet weak var inputText: UITextField!
     @IBOutlet weak var viewText: UITextView!
     
+    var myArray: [String] = []
+    
     @IBAction func buttonClicked(_ sender: AnyObject) {
-        viewText.text = ("my name is \(inputText.text!)")
+        if sender.tag == 0 {
+            myArray.append(inputText.text!)
+        }
+        else {
+            let indexOfElement = myArray.index(of: inputText.text!)
+            myArray.remove(at: indexOfElement!)
+        }
+        
+        inputText.text = ""
+        viewText.text = myArray.joined(separator: ", ")
+        
     }
+    
 }
 

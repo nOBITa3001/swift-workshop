@@ -38,6 +38,9 @@
                                 <frame key="frameInset" minX="219" minY="87" width="175" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="2"/>
+                                <connections>
+                                    <segue destination="dpT-Jf-ji4" kind="show" id="wGo-9e-eaX"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayE-xz-AJo">
                                 <frame key="frameInset" minX="219" minY="233" width="175" height="21"/>
@@ -51,6 +54,9 @@
                                 <frame key="frameInset" minX="20" minY="271" width="175" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="3"/>
+                                <connections>
+                                    <segue destination="dpT-Jf-ji4" kind="show" id="IrW-jE-WYc"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5HP-b5-Kih">
                                 <frame key="frameInset" minX="20" minY="417" width="175" height="21"/>
@@ -64,6 +70,9 @@
                                 <frame key="frameInset" minX="219" minY="271" width="175" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="4"/>
+                                <connections>
+                                    <segue destination="dpT-Jf-ji4" kind="show" id="BZ8-kj-mtt"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xwo-uI-V3n">
                                 <frame key="frameInset" minX="219" minY="417" width="175" height="21"/>
@@ -77,6 +86,9 @@
                                 <frame key="frameInset" minX="20" minY="454" width="175" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="5"/>
+                                <connections>
+                                    <segue destination="dpT-Jf-ji4" kind="show" id="jzk-3C-HvD"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRf-MD-End">
                                 <frame key="frameInset" minX="20" minY="600" width="175" height="21"/>
@@ -90,6 +102,9 @@
                                 <frame key="frameInset" minX="219" minY="453" width="175" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="dpT-Jf-ji4" kind="show" id="d7Y-9V-wCU"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cWd-1T-zuZ">
                                 <frame key="frameInset" minX="219" minY="599" width="175" height="21"/>
@@ -103,6 +118,9 @@
                                 <frame key="frameInset" minX="20" minY="637" width="175" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="7"/>
+                                <connections>
+                                    <segue destination="dpT-Jf-ji4" kind="show" id="Gc3-MG-vwV"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEK-GL-wku">
                                 <frame key="frameInset" minX="20" minY="783" width="175" height="21"/>
@@ -116,6 +134,9 @@
                                 <frame key="frameInset" minX="219" minY="637" width="175" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="8"/>
+                                <connections>
+                                    <segue destination="dpT-Jf-ji4" kind="show" id="J9x-2X-Y0H"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBW-ae-Gx6">
                                 <frame key="frameInset" minX="219" minY="783" width="175" height="21"/>
@@ -181,4 +202,7 @@
         <image name="7" width="604" height="340"/>
         <image name="8" width="592" height="340"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="wGo-9e-eaX"/>
+    </inferredMetricsTieBreakers>
 </document>
