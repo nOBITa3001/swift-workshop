@@ -11,9 +11,10 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var myLabel: UILabel!
+    @IBOutlet weak var inputText: UITextField!
     
     @IBAction func myButtonTapped(_ sender: AnyObject) {
-        myLabel.text = "clicked !"
+        myLabel.text = inputText.text
     }
     
     override func viewDidLoad() {
@@ -21,8 +22,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         myLabel.text = "hi !"
-        
-        
     }
 
     override func didReceiveMemoryWarning() {
