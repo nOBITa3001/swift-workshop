@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,23 +20,18 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet weak var inputText: UITextField!
-    @IBOutlet weak var viewText: UITextView!
+    @IBOutlet weak var imgResult: UIImageView!
     
-    var myArray: [String] = []
+    var myDict = ["mark": "mark", "bill": "bill", "jobs": "jobs"]
     
     @IBAction func buttonClicked(_ sender: AnyObject) {
-        if sender.tag == 0 {
-            myArray.append(inputText.text!)
-        }
-        else {
-            let indexOfElement = myArray.index(of: inputText.text!)
-            myArray.remove(at: indexOfElement!)
-        }
+        let personName = inputText.text!
+        let imageName = myDict[personName]
         
         inputText.text = ""
-        viewText.text = myArray.joined(separator: ", ")
+        inputText.resignFirstResponder()
         
+        imgResult.image = UIImage(named: imageName!)
     }
-    
 }
 
