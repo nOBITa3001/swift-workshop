@@ -32,3 +32,25 @@ names.insert("ada", at: 0)
 names.removeLast()
 names
 names += ["new item"]
+
+var numberOfLegs = ["ant": 6, "snake": 0, "cheetah": 4]
+
+numberOfLegs["ant"] = 5
+numberOfLegs.updateValue(45, forKey: "ant")
+
+numberOfLegs.removeValue(forKey: "snake")
+
+numberOfLegs
+
+
+for number in 1..<5 {
+    print("\(number) times is \(number * 4)")
+}
+
+
+
+
+
+
+
+
