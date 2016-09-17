@@ -19,3 +19,16 @@ for character in "🙁🤔😬😁😎".characters {
     print(character)
 }
 
+var names = ["nOBITa", "Lin", "Pond", 2] as [Any]
+names.append("north")
+
+names.append(2)
+names.append(22.123)
+names.append(true)
+
+names[0]
+names.insert("ada", at: 0)
+
+names.removeLast()
+names
+names += ["new item"]
