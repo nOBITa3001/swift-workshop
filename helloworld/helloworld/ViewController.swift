@@ -9,25 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    @IBOutlet weak var myLabel: UILabel!
-
-    @IBAction func buttonClicked(_ sender: AnyObject) {
-        myLabel.text = String(sender.tag)
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        myLabel.text = "pls click !"
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBOutlet weak var inputText: UITextField!
+    @IBOutlet weak var viewText: UITextView!
+    
+    @IBAction func buttonClicked(_ sender: AnyObject) {
+        viewText.text = inputText.text
+    }
 }
 
