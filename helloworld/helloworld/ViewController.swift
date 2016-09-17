@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var viewText: UITextView!
     
     @IBAction func buttonClicked(_ sender: AnyObject) {
-        viewText.text = inputText.text
+        viewText.text = ("my name is \(inputText.text!)")
     }
 }
 
